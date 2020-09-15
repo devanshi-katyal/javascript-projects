@@ -27,7 +27,7 @@ const deadline= document.querySelector(".deadline")
 const items= document.querySelectorAll(".deadline-format h4")
 
 //dynamic date
-let futureDate= new Date(2020, 8,15,1,43,0)
+let futureDate= new Date(2020, 8,25,1,43,0)
 const month= months[futureDate.getMonth()]
 const year= futureDate.getFullYear()
 const hours= futureDate.getHours();
